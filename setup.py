@@ -14,7 +14,8 @@ data_files.append(('share/' + package_name, [
 
 data_files.append(('share/' + package_name + '/resource', [
     'resource/webots_robot_description.urdf',
-    'resource/ros2control.yaml'
+    'resource/ros2control.yaml',
+    'resource/config.rviz'
 ]))
 
 data_files.append(('share/' + package_name + '/worlds', [
@@ -22,7 +23,6 @@ data_files.append(('share/' + package_name + '/worlds', [
 ]))
 
 data_files.append(('share/' + package_name + '/protos', [
-    'protos/TurtleBot3Burger_enu.proto',
     'protos/E-puck_enu.proto',
     'protos/E-puckDistanceSensor_enu.proto'
 ]))
