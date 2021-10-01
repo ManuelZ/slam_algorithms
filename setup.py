@@ -9,7 +9,7 @@ data_files.append(('share/ament_index/resource_index/packages', [
 ]))
 
 data_files.append(('share/' + package_name, [
-    'launch/robot_launch.py'
+    'launch/occupancy_grid.launch.py'
 ]))
 
 data_files.append(('share/' + package_name + '/resource', [
